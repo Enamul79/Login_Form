@@ -1,0 +1,60 @@
+nav a{
+          text-decoration: none;
+          font-size: 25px;
+          font-family:'Courier New', Courier, monospace;
+          margin-right: 15px;
+          background-color: yellow;
+          border: 1px solid tomato;
+          border-radius: 10px;
+          padding:5px;
+          
+}
+
+nav{
+          display: flex;
+          justify-content: space-between;
+}
+
+
+.container{
+          border:5px solid seagreen;
+          display: flex;
+          justify-content:space-around;
+}
+
+.box{
+          background-color: aqua;
+          border:2px solid crimson;
+          font-size: 3em;
+          font-family:Verdana, sans-serif;
+          width:150px;
+          height: 100px;
+          
+}
+
+#box_box{
+          flex-grow: 1;
+}
+
+.login_container{
+          display: flex;
+          justify-content: center;
+          /* background-color: seagreen; */
+}
+
+
+
+.login-form{
+          display: flex;
+          flex-direction: column;
+}
+
+.login-form>input,button{
+          background-color: tomato;
+          margin-top: 10px;
+          padding:10px;
+          border: 10px solid yellow;
+          border-radius: 25px;
+          color:white;
+}
+
